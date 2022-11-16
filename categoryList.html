@@ -1,0 +1,197 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="background: #fff; color: #ff0000">
+     	<div class="portfolio" id="categories" onclick={toggle}>
+		<div class="container">
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">All</li>
+				<li class="w3layouts agileits" data-filter="1">Category1</li>
+				<li class="w3layouts agileits" data-filter="2">Category2</li>
+				<li class="w3layouts agileits" data-filter="3">Category3</li>
+				<li class="w3layouts agileits" data-filter="4">Category4</li>
+				<li class="w3layouts agileits" data-filter="5">Category5</li>
+			</ul>
+
+			<div class="filtr-container w3layouts agileits">
+
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1, 5"  data-toggle="modal" data-target="#myModal">
+					
+				  <figure>
+							<img src="images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> Pubg Team 
+									<br>
+									<button type="button" class="btn btn-warning"><a href="./voteCategory.html" style="border: none;">Vote Category</a><i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+							</figcaption>
+						</figure>
+				</div>
+
+				<!-- <button type="button" class="btn btn-primary" style="background-color: #000; color: #000">Vote Category</button> -->
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 5" data-sort="Luminous night">
+					<a href="images/p2.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p2.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> pubg player in Africa 
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1, 4" data-sort="City wonders">
+					<a href="images/p3.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p3.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> Codm Team 
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="In production">
+					<a href="images/p4.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p4.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> Mobile Legends Team 
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="3, 4" data-sort="Industrial site">
+					<a href="images/p5.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p5.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> Content Creator of Year 
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="images/p6.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p6.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> Caster of the year 
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="1, 5" data-sort="City lights">
+					<a href="images/p7.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p7.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span>SPORTS
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p8.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p8.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> Battle Royale game of the year 
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p1.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> multiplayer game of the year 
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				
+
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p1.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> game of the year 
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p1.jpg" 
+					class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p9.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Best - <span> E-sports organization of the year. 
+									<br>
+									<button type="button" class="btn btn-warning">Vote Category<i style="margin-left: 10px" class="fa fa-arrow-circle-right" aria-hidden="true"></i></button> </span></h3>
+								</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+    </div>
+  </body>
+</html>
